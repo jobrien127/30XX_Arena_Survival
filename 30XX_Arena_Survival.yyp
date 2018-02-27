@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0f1411f4-e467-43fc-90a6-e96b20e6ad9e",
+            "Value": {
+                "id": "9b73d3f2-7c2a-492b-9f59-07e092193704",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "104cfec8-c64d-4d53-9b79-133fd463b703",
             "Value": {
                 "id": "a50c373e-05ab-4e96-84cf-d3ece0b8a412",
@@ -135,6 +143,30 @@
             }
         },
         {
+            "Key": "8d86ec9f-010a-49b7-9758-7166bbc40e5c",
+            "Value": {
+                "id": "ba11ea55-575c-4e3a-ad89-6e3006bc147e",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9a73d187-dc52-4f2c-bd15-2ac64d33bf46",
+            "Value": {
+                "id": "4249147e-8df0-4302-bef7-b72ae69b347b",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c44bfb4f-5038-4994-b1f6-0c60049f2eb0",
+            "Value": {
+                "id": "762b31d0-582d-4b0b-8108-e35eb73bef21",
+                "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc2ba2c7-640b-4597-9f91-cd7c07344729",
             "Value": {
                 "id": "4769341b-fb45-411d-84f5-945db1e97125",
@@ -148,6 +180,14 @@
                 "id": "3e9c0fcf-c22f-4d77-b733-79338b47d84b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "dc90e464-3aa3-47eb-98b6-b1edcba6269b",
+            "Value": {
+                "id": "22361804-cb4b-4f65-8a63-b6ab2dae8c5b",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
