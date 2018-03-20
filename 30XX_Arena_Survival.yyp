@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "3f3087a4-14df-43c2-abdd-3c06f033994c",
-            "Value": {
-                "id": "1715284f-971a-4ef7-b4ca-c45686e91752",
-                "resourcePath": "objects\\obj_arena_01\\obj_arena_01.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "3fa93fd2-a9bc-424c-85eb-c40b2610e471",
             "Value": {
                 "id": "8defd949-bc59-42c2-8e54-74d0ab98abb4",
@@ -148,14 +140,6 @@
                 "id": "db2cf152-565e-4a0f-8064-fd6a19ad8841",
                 "resourcePath": "views\\431a4e10-906d-4ac0-b0e5-59173023bfec.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "43990733-8a50-42a1-8a01-1d3ca6175720",
-            "Value": {
-                "id": "74f56af1-640d-4397-94b3-3cdbd6917f21",
-                "resourcePath": "sprites\\spr_arena_01\\spr_arena_01.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,6 +196,22 @@
                 "id": "c5cd97f3-f05f-4f73-8bab-7fe09f5c9eaa",
                 "resourcePath": "objects\\obj_endless_button\\obj_endless_button.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "83624a29-1488-4d1d-a982-da93ad8e3bb2",
+            "Value": {
+                "id": "b6b81591-bbfa-4292-a39d-c57202ba4d51",
+                "resourcePath": "tilesets\\til_arena_tiles\\til_arena_tiles.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8813f24c-2e5c-450a-b3f4-61f3c5be4009",
+            "Value": {
+                "id": "30957397-3d56-4b26-8702-7698a8e4ad46",
+                "resourcePath": "sprites\\spr_tiles\\spr_tiles.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
