@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "d972700b-bc51-4eb6-8f82-2468e8511f51",
+            "Value": {
+                "id": "4039cd5a-4ca8-462e-ac19-8de527f9314d",
+                "resourcePath": "sprites\\spr_blue_tile\\spr_blue_tile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc90e464-3aa3-47eb-98b6-b1edcba6269b",
             "Value": {
                 "id": "22361804-cb4b-4f65-8a63-b6ab2dae8c5b",
