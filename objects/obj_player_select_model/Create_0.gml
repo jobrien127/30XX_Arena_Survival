@@ -1,3 +1,6 @@
+opacityValue = 0;
+image_alpha = 0;
+
 // currentCharacterIndex:
 // 0: Blue
 // 1: Red
