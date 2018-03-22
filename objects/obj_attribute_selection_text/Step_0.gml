@@ -1,3 +1,14 @@
+// Controls fade-in
+with(obj_player_select_model) {
+	if (opacityValue >= 1) {
+		if (obj_attribute_selection_text.opacityValue < 1) {
+			obj_attribute_selection_text.opacityValue += 0.002;
+			obj_attribute_selection_text.image_alpha = opacityValue;	
+		}
+	}
+}
+show_debug_message(string(opacityValue));
+
 // Controls sprite changing
 if (keyboard_check_pressed(vk_left)) {
   if (currentAttributeIndex != 0) {
