@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "b237b14f-e184-4628-b47a-c328deed9130",
+            "Value": {
+                "id": "96219c6a-ddb3-4ad6-ad9f-6a5b352cf3da",
+                "resourcePath": "objects\\obj_player_select_model\\obj_player_select_model.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b526ddb3-a6e0-4944-9f14-827dc58491e5",
             "Value": {
                 "id": "6b3db4b8-fc3b-4ac3-b9e9-1de2e6dc6dab",
