@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "b26b538e-7be6-419f-8fbc-3346760cb6d1",
+            "Value": {
+                "id": "60eac0a9-9128-47ca-92b4-a06844523455",
+                "resourcePath": "objects\\obj_start_button_hub\\obj_start_button_hub.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6b3f30b-e6de-4354-90cf-5f1c82277a4e",
             "Value": {
                 "id": "75ac7800-2130-4848-8602-ff668e7b2d25",
