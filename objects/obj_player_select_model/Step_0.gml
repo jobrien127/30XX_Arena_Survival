@@ -4,4 +4,4 @@ if (opacityValue < 1) {
 	image_alpha = opacityValue;	
 }
 
-sprite_index = currentCharacter[currentCharacterIndex];
+sprite_index = currentCharacter[global.currentCharacterIndex];

@@ -6,5 +6,5 @@ image_alpha = 0;
 // 1: Red
 // 2: Green
 // 3: Yellow
-currentCharacterIndex = 0;
+global.currentCharacterIndex = 0;
 currentCharacter = [spr_player, spr_player_red, spr_player_green, spr_player_yellow];

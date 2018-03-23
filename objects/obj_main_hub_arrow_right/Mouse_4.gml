@@ -1,10 +1,10 @@
 // Controls sprite changing
 with(obj_player_select_model) {
-	if (currentCharacterIndex != 3) {
-		currentCharacterIndex++;	
+	if (global.currentCharacterIndex != 3) {
+		global.currentCharacterIndex++;	
 		audio_play_sound(snd_menu_selection_1, 3, 0);
 	}	
-	sprite_index = currentCharacter[currentCharacterIndex];
+	sprite_index = currentCharacter[global.currentCharacterIndex];
 }
 
 // Controls attribute selection text changing
