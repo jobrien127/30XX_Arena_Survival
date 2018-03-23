@@ -11,7 +11,7 @@ if (keyboard_check_pressed(vk_left)) {
   }
 }
 if (keyboard_check_pressed(vk_right)) {
-	if (currentCharacterIndex != 3) {
+	 if (currentCharacterIndex != 3) {
 		currentCharacterIndex++;	
 	}
 }	

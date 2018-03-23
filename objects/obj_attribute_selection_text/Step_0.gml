@@ -7,7 +7,6 @@ with(obj_player_select_model) {
 		}
 	}
 }
-show_debug_message(string(opacityValue));
 
 // Controls sprite changing
 if (keyboard_check_pressed(vk_left)) {
