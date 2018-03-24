@@ -17,4 +17,4 @@ else if (global.currentCharacterIndex == 3) {
 }
 
 
-step = 5;
+step = 2.5
