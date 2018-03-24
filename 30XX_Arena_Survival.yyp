@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "17258ccb-4265-4fe3-b863-999d94926cf6",
+            "Value": {
+                "id": "b5d05632-4639-4241-aa83-2340dddff1c1",
+                "resourcePath": "sprites\\spr_player_moveBottomRight\\spr_player_moveBottomRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "192737d5-960f-4748-9fc2-bff9350da59a",
             "Value": {
                 "id": "f5c15a2e-8b4b-40d5-8d9a-ac781b9a57cb",
@@ -188,6 +196,14 @@
                 "id": "56429daa-64d2-47f6-a965-c36de9bd98f5",
                 "resourcePath": "objects\\obj_main_hub_arrow_right\\obj_main_hub_arrow_right.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "350dada2-2cc6-4ede-9899-bf6e5ed33b66",
+            "Value": {
+                "id": "41302692-b9db-429d-8b97-d16478fc1a16",
+                "resourcePath": "sprites\\spr_player_moveBottomLeft\\spr_player_moveBottomLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,6 +332,14 @@
                 "id": "4410d58f-135f-48d1-ab93-92a499eb56aa",
                 "resourcePath": "views\\64917bbd-e5ed-40af-9a1b-4c1b1f4c0c52.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f2a7703-4618-4e03-ae41-c3676b9ce640",
+            "Value": {
+                "id": "247197ee-edb7-43b2-a0dc-ab15c33eb3bc",
+                "resourcePath": "sprites\\spr_player_moveTopLeft\\spr_player_moveTopLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -563,6 +587,14 @@
             "Value": {
                 "id": "d4d4ea37-0e74-4158-885e-7909e10c10aa",
                 "resourcePath": "sprites\\spr_main_hub_bg\\spr_main_hub_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d0cf7bf1-4b21-48ef-97f6-8bf8ebefcdb4",
+            "Value": {
+                "id": "de5d8962-1125-4105-b7b6-09570538c913",
+                "resourcePath": "sprites\\spr_player_moveTopRight\\spr_player_moveTopRight.yy",
                 "resourceType": "GMSprite"
             }
         },
