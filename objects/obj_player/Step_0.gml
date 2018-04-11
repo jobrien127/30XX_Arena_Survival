@@ -143,3 +143,58 @@ if (x > 2048) x = 2048;
 if (x < 0) x = 0;
 if (y > 768) y = 768;
 if (y < 0) y = 0;
+
+if (keyboard_check(ord("Q"))){
+	switch(global.currentCharacterIndex){
+		
+	case 0:
+	sprite_index = spr_player_attackLeft;
+	break;
+	/*case 1:
+	sprite_index = spr_player_red;
+	break;
+	case 2:
+	sprite_index = spr_player_green;
+	break;
+	case 3:
+	sprite_index = spr_player_yellow;
+	break;
+	*/
+	}
+	
+}
+else if (keyboard_check(ord("E"))){
+		switch(global.currentCharacterIndex){
+		
+	case 0:
+	sprite_index = spr_player_attackRight;
+	break;
+	/*case 1:
+	sprite_index = spr_player_red;
+	break;
+	case 2:
+	sprite_index = spr_player_green;
+	break;
+	case 3:
+	sprite_index = spr_player_yellow;
+	break;
+	*/
+	}
+}
+else{
+switch(global.currentCharacterIndex){
+	case 0:
+	sprite_index = spr_player;
+	break;
+	case 1:
+	sprite_index = spr_player_red;
+	break;
+	case 2:
+	sprite_index = spr_player_green;
+	break;
+	case 3:
+	sprite_index = spr_player_yellow;
+	break;
+	
+}
+}
