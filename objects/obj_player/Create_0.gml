@@ -25,5 +25,6 @@ inDashingState = false;
 dashingCounter = 0;
 dashDirection = "";
 dashSpeed = 15;
+dashBuffer = 0;
 //Variables for player health
 playerHealth = 100;

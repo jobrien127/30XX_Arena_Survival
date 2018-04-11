@@ -48,42 +48,47 @@ if (!keyboard_check(ord("W")) && !keyboard_check(ord("S"))) {
 
 //TODD: dash and passive ability
 if keyboard_check(vk_space) {
-	//Determines the dash direction
-	if (keyboard_check(ord("D")) && keyboard_check(ord("S"))) {
-		dashDirection = "right-down";
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("D")) && keyboard_check(ord("W"))) {
-		dashDirection = "right-up";	
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("A")) && keyboard_check(ord("S"))) {
-		dashDirection = "left-down";
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("A")) && keyboard_check(ord("W"))) {
-		dashDirection = "left-up";	
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("D"))) {
-		dashDirection = "right";	
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("A"))) {
-		dashDirection = "left";	
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("S"))) {
-		dashDirection = "down";	
-		inDashingState = true;	
-		dashingCounter = 5;
-	} else if (keyboard_check(ord("W"))) {
-		dashDirection = "up";	
-		inDashingState = true;	
-		dashingCounter = 5;
+	if (!inDashingState && dashBuffer <= 0) {
+		audio_play_sound(snd_dash, 4, 0);
+		dashBuffer = 300;
+		//Determines the dash direction
+		if (keyboard_check(ord("D")) && keyboard_check(ord("S"))) {
+			dashDirection = "right-down";
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("D")) && keyboard_check(ord("W"))) {
+			dashDirection = "right-up";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("A")) && keyboard_check(ord("S"))) {
+			dashDirection = "left-down";
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("A")) && keyboard_check(ord("W"))) {
+			dashDirection = "left-up";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("D"))) {
+			dashDirection = "right";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("A"))) {
+			dashDirection = "left";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("S"))) {
+			dashDirection = "down";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		} else if (keyboard_check(ord("W"))) {
+			dashDirection = "up";	
+			inDashingState = true;	
+			dashingCounter = 5;
+		}
 	}
 }
-
+//TODO: For testing
+show_debug_message(string(dashBuffer));
 if (inDashingState) {
 	if (dashingCounter > 0) {
 		dashingCounter--;
@@ -115,5 +120,9 @@ if (inDashingState) {
 } else {
 	x += xVelocity;
 	y += yVelocity;	
+}
+
+if (dashBuffer > 0) {
+	dashBuffer--;	
 }
 //if keyboard_check(vk_shift);
