@@ -138,3 +138,8 @@ if (enemyDamageBuffer <= 0) {
 		visible = false;
 	}
 }
+
+if (x > 2048) x = 2048;
+if (x < 0) x = 0;
+if (y > 768) y = 768;
+if (y < 0) y = 0;
