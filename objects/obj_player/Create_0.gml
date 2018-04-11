@@ -16,5 +16,11 @@ else if (global.currentCharacterIndex == 3) {
 	sprite_index = spr_player_yellow;
 }
 
-
-step = 2.5
+//Variables for movement
+xVelocity = 0;
+yVelocity = 0;
+maxVelocity = 5.5;
+inDashingState = false;
+dashingCounter = 0;
+dashDirection = "";
+dashSpeed = 15;
