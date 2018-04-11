@@ -47,3 +47,7 @@ else if (global.currentCharacterIndex == 3) {
 	maxVelocity = 5;
 	defenseStat = 3;
 }
+
+//State variables
+cannotBeHit = false;
+enemyDamageBuffer = 0;

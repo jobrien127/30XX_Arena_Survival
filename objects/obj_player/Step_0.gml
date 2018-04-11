@@ -125,3 +125,16 @@ if (dashBuffer > 0) {
 	dashBuffer--;	
 }
 //if keyboard_check(vk_shift);
+
+//Dealing damage to the player
+if (enemyDamageBuffer <= 0) {
+	cannotBeHit = false;	
+	visible = true;
+} else {
+	enemyDamageBuffer--;
+	if (enemyDamageBuffer % 5 == 0) {
+		visible = true;	
+	} else {
+		visible = false;
+	}
+}
