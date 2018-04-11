@@ -1,3 +1,6 @@
+
+
+
 //Drawing for movement
 if (keyboard_check(ord("A")) && keyboard_check(ord("S"))) {
 	if (global.currentCharacterIndex == 0) {
@@ -101,3 +104,4 @@ else if (keyboard_check(ord("W")) && keyboard_check(ord("D"))) {
 else {
 	draw_self();
 }
+

@@ -1,3 +1,5 @@
+
+
 //Basic player movement
 //Left movement
 if keyboard_check(ord("A")){
