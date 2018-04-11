@@ -16,9 +16,9 @@ if keyboard_check(ord("D")) {
 //Reducing xVelocity
 if (!keyboard_check(ord("A")) && !keyboard_check(ord("D"))) {
 	if (xVelocity < 0) {
-		xVelocity += 0.1;	
+		xVelocity += 0.5;	
 	} else if (xVelocity > 0) {
-		xVelocity -= 0.1;	
+		xVelocity -= 0.5;	
 	}
 }
 //Upward movement
@@ -38,9 +38,9 @@ if keyboard_check(ord("S")) {
 //Reducing yVelocity
 if (!keyboard_check(ord("W")) && !keyboard_check(ord("S"))) {
 	if (yVelocity < 0) {
-		yVelocity += 0.1;	
+		yVelocity += 0.5;	
 	} else if (yVelocity > 0) {
-		yVelocity -= 0.1;	
+		yVelocity -= 0.5;	
 	}	
 }
 
@@ -85,8 +85,7 @@ if keyboard_check(vk_space) {
 		}
 	}
 }
-//TODO: For testing
-show_debug_message(string(dashBuffer));
+
 if (inDashingState) {
 	if (dashingCounter > 0) {
 		dashingCounter--;
