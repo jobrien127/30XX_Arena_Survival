@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0391e6bf-0c71-4d4a-a65d-0f8c6bcdb852",
+            "Value": {
+                "id": "99e65f58-9411-4ad6-bc28-20b821d61a56",
+                "resourcePath": "sounds\\snd_level_bg\\snd_level_bg.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "04b349ea-3f69-4364-8f40-1f4739662866",
             "Value": {
                 "id": "be79616f-ec24-4b00-b612-9e04344579a7",

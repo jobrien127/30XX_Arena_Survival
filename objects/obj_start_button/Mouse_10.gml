@@ -1,1 +1,0 @@
-object_set_sprite(obj_start_button, spr_options_button);

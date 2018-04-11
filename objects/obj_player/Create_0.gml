@@ -20,7 +20,10 @@ else if (global.currentCharacterIndex == 3) {
 xVelocity = 0;
 yVelocity = 0;
 maxVelocity = 5.5;
+//Variables for dashing
 inDashingState = false;
 dashingCounter = 0;
 dashDirection = "";
 dashSpeed = 15;
+//Variables for player health
+playerHealth = 100;
