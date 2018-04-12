@@ -145,6 +145,7 @@ if (y > 768) y = 768;
 if (y < 0) y = 0;
 
 if (keyboard_check(ord("Q"))){
+
 	switch(global.currentCharacterIndex){
 		
 	case 0:
@@ -161,7 +162,15 @@ if (keyboard_check(ord("Q"))){
 	break;
 	*/
 	}
-	
+//hitbox
+if(image_index >= 5) && (image_index <= 7){
+	with (instance_create_layer(x, y, "lay_hitbox", obj_hitboxLeft)){
+		image_xscale = other.image_xscale;	
+		with(instance_place(x, y, obj_enemy)){
+			hp -= obj_player.attackStat;
+		}
+	}
+}
 }
 else if (keyboard_check(ord("E"))){
 		switch(global.currentCharacterIndex){
@@ -180,6 +189,16 @@ else if (keyboard_check(ord("E"))){
 	break;
 	*/
 	}
+	
+		//hitbox
+if(image_index >= 5) && (image_index <= 7){
+	with (instance_create_layer(x, y, "lay_hitbox", obj_hitboxRight)){
+		image_xscale = other.image_xscale;	
+		with(instance_place(x, y, obj_enemy)){
+			hp = hp - 5;
+		}
+	}
+}
 }
 else{
 switch(global.currentCharacterIndex){
@@ -198,3 +217,4 @@ switch(global.currentCharacterIndex){
 	
 }
 }
+

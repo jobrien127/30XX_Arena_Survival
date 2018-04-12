@@ -2,7 +2,7 @@
     "id": "17eb6395-a029-48c3-bd2e-83a74e0f2f5d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_player_attackRight1",
+    "name": "spr_hitbox",
     "For3D": false,
     "HTile": false,
     "VTile": false,
