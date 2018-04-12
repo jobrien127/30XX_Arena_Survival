@@ -1,5 +1,5 @@
 //Timer variables
-remainingTime = 15;
+remainingTime = 60;
 timerBuffer = 60;
 
 //Audio

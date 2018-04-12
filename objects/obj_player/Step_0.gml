@@ -125,7 +125,7 @@ if (dashBuffer > 0) {
 	dashBuffer--;	
 }
 //if keyboard_check(vk_shift);
-
+show_debug_message(string(cannotBeHit));
 //Dealing damage to the player
 if (enemyDamageBuffer <= 0) {
 	cannotBeHit = false;	
@@ -143,79 +143,3 @@ if (x > 2048) x = 2048;
 if (x < 0) x = 0;
 if (y > 768) y = 768;
 if (y < 0) y = 0;
-
-if (keyboard_check(ord("Q"))){
-
-	switch(global.currentCharacterIndex){
-		
-	case 0:
-	sprite_index = spr_player_attackLeft;
-	break;
-	/*case 1:
-	sprite_index = spr_player_red;
-	break;
-	case 2:
-	sprite_index = spr_player_green;
-	break;
-	case 3:
-	sprite_index = spr_player_yellow;
-	break;
-	*/
-	}
-	
-//hitbox
-if(image_index >= 5) && (image_index <= 7){
-	with (instance_create_layer(x, y, "lay_hitbox", obj_hitboxLeft)){
-		image_xscale = other.image_xscale;	
-		with(instance_place(x, y, obj_enemy)){
-			hp -= obj_player.attackStat;
-		}
-	}
-}
-}
-else if (keyboard_check(ord("E"))){
-		switch(global.currentCharacterIndex){
-		
-	case 0:
-	sprite_index = spr_player_attackRight;
-	break;
-	/*case 1:
-	sprite_index = spr_player_red;
-	break;
-	case 2:
-	sprite_index = spr_player_green;
-	break;
-	case 3:
-	sprite_index = spr_player_yellow;
-	break;
-	*/
-	}
-	
-//hitbox
-if(image_index >= 5) && (image_index <= 7){
-	with (instance_create_layer(x, y, "lay_hitbox", obj_hitboxRight)){
-		image_xscale = other.image_xscale;	
-		with(instance_place(x, y, obj_enemy)){
-			hp = hp - 5;
-		}
-	} 
-}
-}
-else{
-switch(global.currentCharacterIndex){
-	case 0:
-	sprite_index = spr_player;
-	break;
-	case 1:
-	sprite_index = spr_player_red;
-	break;
-	case 2:
-	sprite_index = spr_player_green;
-	break;
-	case 3:
-	sprite_index = spr_player_yellow;
-	break;
-	
-}
-}
-

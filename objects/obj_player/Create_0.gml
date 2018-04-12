@@ -51,3 +51,5 @@ else if (global.currentCharacterIndex == 3) {
 //State variables
 cannotBeHit = false;
 enemyDamageBuffer = 0;
+attacking = false;
+attackDirection = "left";

@@ -1,4 +1,10 @@
-if (!cannotBeHit) {
+if (attacking) {
+	audio_play_sound(snd_menu_selection_2, 4, 0);	
+	with(other) {
+		instance_destroy();	
+	}
+}
+else if (!attacking && !cannotBeHit) {
 	cannotBeHit = true;
 	enemyDamageBuffer = 120;
 	playerHealth -= 10;
