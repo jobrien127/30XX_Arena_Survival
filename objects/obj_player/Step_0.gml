@@ -1,6 +1,4 @@
- 
-
-//Basic player movement
+ //Basic player movement
 //Left movement
 if keyboard_check(ord("A")){
 	if (xVelocity > -maxVelocity) {
@@ -143,3 +141,8 @@ if (x > 2048) x = 2048;
 if (x < 0) x = 0;
 if (y > 768) y = 768;
 if (y < 0) y = 0;
+
+//Gameover
+if (playerHealth <= 0) {
+	room_goto(0);
+}

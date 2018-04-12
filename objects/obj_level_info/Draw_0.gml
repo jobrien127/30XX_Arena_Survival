@@ -9,6 +9,10 @@ draw_set_color(c_white);
 draw_text(cx + 30, ch - 100, "TIME:");
 draw_text(cx + 30 + 120, ch - 100, string(remainingTime));
 
+//Text for current score
+draw_text(cx + 30 + 700, ch - 100, "Score:");
+draw_text(cx + 30 + 850, ch - 100, string(global.currentScore));
+
 //Text for player health
 draw_text(cx + cw / 2 - 125, 20, "Health:");
 with(obj_player) {
