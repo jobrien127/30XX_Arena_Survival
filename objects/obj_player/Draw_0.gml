@@ -115,9 +115,27 @@ if (!attacking) {
 else if (attacking) {
 	image_speed = 15;
 	if (attackDirection == "left") {
-		draw_sprite(spr_player_attackLeft, -1, x, y);
+		//draw appropriate attacking sprite for each player type
+		
+		if (global.currentCharacterIndex == 0) {
+			draw_sprite(spr_player_attackLeft, -1, x, y);
+		} else if (global.currentCharacterIndex == 1) {
+			draw_sprite(spr_player_attackLeft_red, -1, x, y);	
+		} else if (global.currentCharacterIndex == 2) {
+			draw_sprite(spr_player_attackLeft_green, -1, x, y);	
+		} else if (global.currentCharacterIndex == 3) {
+			draw_sprite(spr_player_attackLeft_yellow, -1, x, y);
+		}
 	} else if (attackDirection == "right") {
-		draw_sprite(spr_player_attackRight, -1, x, y);
+		if (global.currentCharacterIndex == 0) {
+			draw_sprite(spr_player_attackRight, -1, x, y);
+		} else if (global.currentCharacterIndex == 1) {
+			draw_sprite(spr_player_attackRight_red, -1, x, y);	
+		} else if (global.currentCharacterIndex == 2) {
+			draw_sprite(spr_player_attackRight_green, -1, x, y);	
+		} else if (global.currentCharacterIndex == 3) {
+			draw_sprite(spr_player_attackRight_yellow, -1, x, y);
+		}
 	}
 	if (floor(image_index) == 9) {
 		attacking = false;	
