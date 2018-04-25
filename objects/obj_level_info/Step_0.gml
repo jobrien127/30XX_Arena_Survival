@@ -1,12 +1,13 @@
 // Implements the level timer.
 if (timerBuffer == 0) {
 	timerBuffer = 60;	
-	remainingTime--;
+	global.remainingTime++;
 }
 else {
 	timerBuffer--;
 }
-
-if (remainingTime < 0) {
-	room_goto(0);	
+/*
+if (global.remainingTime < 0) {
+	room_goto(results_room);	
 }
+*/

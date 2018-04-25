@@ -144,5 +144,5 @@ if (y < 0) y = 0;
 
 //Gameover
 if (playerHealth <= 0) {
-	room_goto(0);
+	room_goto(results_room);
 }

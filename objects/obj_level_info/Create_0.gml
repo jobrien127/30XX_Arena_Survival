@@ -1,5 +1,5 @@
 //Timer variables
-remainingTime = 60;
+global.remainingTime = 0;
 timerBuffer = 60;
 global.currentScore = 0;
 //Audio

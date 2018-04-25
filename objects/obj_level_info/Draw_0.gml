@@ -7,7 +7,7 @@ ch = camera_get_view_height(view_camera[0]);
 draw_set_font(font_timer);
 draw_set_color(c_white);
 draw_text(cx + 30, ch - 100, "TIME:");
-draw_text(cx + 30 + 120, ch - 100, string(remainingTime));
+draw_text(cx + 30 + 120, ch - 100, string(global.remainingTime));
 
 //Text for current score
 draw_text(cx + 30 + 700, ch - 100, "Score:");
