@@ -53,3 +53,5 @@ cannotBeHit = false;
 enemyDamageBuffer = 0;
 attacking = false;
 attackDirection = "left";
+enemyHit = false;
+var hitbox;

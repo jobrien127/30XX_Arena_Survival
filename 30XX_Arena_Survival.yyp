@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "17eb6395-a029-48c3-bd2e-83a74e0f2f5d",
-            "Value": {
-                "id": "38824377-3ea3-4db3-9b9b-f20f13fcc6cb",
-                "resourcePath": "sprites\\spr_hitboxRight\\spr_hitboxRight.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "192737d5-960f-4748-9fc2-bff9350da59a",
             "Value": {
                 "id": "f5c15a2e-8b4b-40d5-8d9a-ac781b9a57cb",
@@ -415,22 +407,6 @@
             }
         },
         {
-            "Key": "66aa5f07-cd11-4238-982a-0951d420f15b",
-            "Value": {
-                "id": "187b1151-4370-48d1-90e6-d026dd0c1101",
-                "resourcePath": "sprites\\spr_hitboxLeft\\spr_hitboxLeft.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "688ce577-f769-4cc1-ad11-46df9be5f8e7",
-            "Value": {
-                "id": "830a6ecf-bb09-4aa7-a43f-4a89c66eb26d",
-                "resourcePath": "objects\\obj_hitboxLeft\\obj_hitboxLeft.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6bc72961-4743-402b-b10a-89b78b462530",
             "Value": {
                 "id": "718e733d-ef5d-422a-8b2f-0eca0c227611",
@@ -575,18 +551,18 @@
             }
         },
         {
-            "Key": "a09ceecb-1b18-4267-9efc-479980d5e266",
-            "Value": {
-                "id": "296beb94-6c1c-4f9d-a6c0-077803782239",
-                "resourcePath": "objects\\obj_hitboxRight\\obj_hitboxRight.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "a0ac2cec-0297-47ee-840f-bd474ddf221e",
             "Value": {
                 "id": "4afe2cd3-cf86-455f-acca-a03c968f88ee",
                 "resourcePath": "sprites\\spr_selection_arrow_left\\spr_selection_arrow_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4b932ab-b778-43d1-a7cd-fc544f5f7e6d",
+            "Value": {
+                "id": "e71121e7-74e7-4783-b1ef-6a0db0cf9ce4",
+                "resourcePath": "sprites\\spr_enemy_damage\\spr_enemy_damage.yy",
                 "resourceType": "GMSprite"
             }
         },

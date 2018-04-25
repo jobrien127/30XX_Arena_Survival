@@ -156,13 +156,20 @@ if (keyboard_check(ord("Q"))) {
 if (playerHealth <= 0) {
 	room_goto(results_room);
 }
+
+//hitbox
+enemyHit = false;
 if (attacking){
 		
 if (attackDirection = "right"){
 	hitbox = collision_rectangle(x + 16, y - 40, x + 63, y + 11,obj_enemy, false, true);
 	if hitbox != noone
    {
-   with (hitbox) hp -= obj_player.attackStat;
+   with (hitbox) {
+	   hp -= obj_player.attackStat;
+	   	hit = 1;
+		damaged = true;
+   }
    }
 }
 else if (attackDirection = "left"){
@@ -170,6 +177,11 @@ else if (attackDirection = "left"){
 
 	if (hitbox != noone)
    {
-   with (hitbox) hp -= obj_player.attackStat;
+	   
+   with (hitbox){
+	   hp -= obj_player.attackStat;
+	   	hit = 0.75;
+		damaged = true;
+   }
    }}
 }

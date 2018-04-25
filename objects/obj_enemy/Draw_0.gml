@@ -24,3 +24,9 @@
 	if (obj_player.x == x && obj_player.y < y){
 			draw_sprite(spr_enemy_up,-1 ,x, y);
 		}
+		
+ if (damaged){
+	 draw_sprite(spr_enemy_damage, -1, x, y);
+ }
+ damaged = false;
+	
