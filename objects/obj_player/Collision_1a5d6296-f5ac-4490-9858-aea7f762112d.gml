@@ -1,8 +1,11 @@
 if (attacking) {
 	audio_play_sound(snd_menu_selection_2, 4, 0);	
 	with(other) {
-		instance_destroy();	
-		global.currentScore++;
+		//hp -= obj_player.attackStat;
+		//if (hp <= 0){
+		//instance_destroy();	
+		//global.currentScore++;
+		//}
 	}
 }
 else if (!attacking && !cannotBeHit) {

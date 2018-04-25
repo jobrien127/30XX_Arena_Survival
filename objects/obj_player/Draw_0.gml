@@ -99,14 +99,6 @@ if (!attacking) {
 			draw_sprite(spr_player_moveRight_yellow, -1, x, y);	
 		}
 	}
-	else if (keyboard_check(ord("Q"))) {
-		attackDirection = "left";
-		attacking = true;
-	}
-	else if (keyboard_check(ord("E"))) {
-		attackDirection = "right";
-		attacking = true;
-	}
 	else {
 		//image_speed = 2;
 		draw_self();

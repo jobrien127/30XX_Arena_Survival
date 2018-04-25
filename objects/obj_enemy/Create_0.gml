@@ -3,4 +3,4 @@
  
 hit = 0;
 hp = 10;
-spd = random_range(1, 2)
+spd = random_range(1, 3);
