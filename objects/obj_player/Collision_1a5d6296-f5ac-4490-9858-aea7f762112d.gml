@@ -1,4 +1,4 @@
- if (!attacking && !cannotBeHit) {
+ if (!cannotBeHit) {
 	cannotBeHit = true;
 	enemyDamageBuffer = 120;
 	playerHealth -= 10;
